@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<style>
+ img{
+
+  background-color: black;
+  display: block;
+  margin-left: 60%;
+  width: 20%;
+
+ }
+.column{
+    float: left;
+    padding: 180px;
+  width: 190px;
+
+}
+ .columnN {
+  float: right;
+  width: 90%;
+  padding: 110px;
+
+
+}
+
+
+</style>
+
+    <div class="row">
+        <div class="columnN">
+        <img src="imagens.png" alt="Imagem">
+        
+        </div>
+
+  <div class="column">
+        <h3 class="name">Izabel Silvestre de Assis </h3>
+        
+        <p class="post">Front end Desenvolver</p>
+
+
+    <nav class="navbar">
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#porifólio">Portifólio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+
+        </ul>
+
+    </div>
+
+    </nav>
+
+
+
+<script>
+    console.log(httpGet('https://www.test.com'))
+    function httpGet(theUrl)
+    {
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+        xmlHttp.send( null );
+        return xmlHttp.responseText;
+    }
+</script>
+
+<script src="jquery.min.js"></script>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
